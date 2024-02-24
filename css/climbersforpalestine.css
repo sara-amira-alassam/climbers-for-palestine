@@ -9,8 +9,17 @@ black: #1d1d1e
 body {
     background-color: #ececf2;
     color: #056839;
-    font-size: 18px;
+    font-size: 22px;
 }
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        left: 0%;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
 
 nav {
     background-color: #ececf2;
