@@ -69,3 +69,11 @@ nav ul a {
         font-size: 36px;
     }
 }
+
+.btn, .btn:hover, .btn:active {
+    color: #ececf2;
+    background-color: #cd4d46;
+    font-size: 20px;
+    font-weight: lighter;
+    border-radius: 10px;
+}
