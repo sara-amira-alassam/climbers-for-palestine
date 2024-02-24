@@ -1,0 +1,58 @@
+/* colours to use
+background: #ececf2
+darkgreen: #056839
+brownyred: #cd4d46
+lightgreen: #36b649
+black: #1d1d1e
+*/
+
+body {
+    background-color: #ececf2;
+    color: #056839;
+    font-size: 18px;
+}
+
+nav {
+    background-color: #ececf2;
+    color: #056839;
+    height: 100px;
+    border-bottom: #cd4d46 2px solid;
+    box-shadow: none;
+}
+
+nav.nav-extended .nav-wrapper {
+    height: 170px;
+}
+
+nav .brand-logo {
+    color: #056839;
+}
+
+nav ul a {
+    color:  #1d1d1e;
+}
+
+.tabs.tabs-transparent .tab a {
+    color: #1d1d1e;
+}
+
+.tabs.tabs-transparent .tab a:hover {
+    color: #056839;
+    background-color: #d7d5d8;
+}
+
+.tabs.tabs-transparent .tab a.active {
+    color: #cd4d46;
+}
+
+.brand-logo table {
+    border: none;
+}
+
+.brand-logo table tr {
+    border: none;
+    font-weight: lighter;
+    color: #36b649;
+    font-size: 50px;
+    font-stretch: expanded;
+}
