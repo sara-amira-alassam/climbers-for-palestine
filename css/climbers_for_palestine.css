@@ -8,10 +8,8 @@ black: #1d1d1e
 
 body {
     display: block;
-    background-attachment: scroll;
-    height: var(--background-height);
+    background-attachment: fixed;
     left: 0;
-    position: fixed;
     top: 0;
     transform: scale(1);
     width: 100vw;
