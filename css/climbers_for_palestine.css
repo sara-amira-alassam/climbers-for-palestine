@@ -22,7 +22,11 @@ body {
     background-size: cover, cover;
     background-color: #071901;
     color: #056839;
-    font-size: 22px;
+    font-size: 16pt;
+    font-weight: 200;
+    font-optical-sizing: auto;
+    font-stretch: 100%;
+    line-height: 30pt;
 }
 
 #main_content {
@@ -31,6 +35,11 @@ body {
     transition: opacity 1.25s ease 0s, transform 1.25s ease 0s;
     border-radius: 5px;
     background-color: rgba(239, 237, 240, 0.8);
+}
+
+#text-content {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 nav {
@@ -55,6 +64,7 @@ nav ul a {
 
 .tabs.tabs-transparent .tab a {
     color: #1d1d1e;
+    font-size: 14pt;
 }
 
 .tabs.tabs-transparent .tab a:hover {
@@ -74,7 +84,7 @@ nav ul a {
     border: none;
     font-weight: lighter;
     color: #36b649;
-    font-size: 50px;
+    font-size: 40pt;
     font-stretch: expanded;
 }
 
@@ -87,7 +97,7 @@ nav ul a {
 
 @media only screen and (max-width: 600px) {
     .brand-logo table tr {
-        font-size: 36px;
+        font-size: 32pt;
     }
 }
 
