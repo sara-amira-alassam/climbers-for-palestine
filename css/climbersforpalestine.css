@@ -12,15 +12,6 @@ body {
     font-size: 22px;
 }
 
-@media only screen and (max-width: 992px) {
-    nav .brand-logo {
-        left: 0%;
-        -webkit-transform: none;
-        transform: none;
-    }
-}
-
-
 nav {
     background-color: #ececf2;
     color: #056839;
@@ -64,4 +55,17 @@ nav ul a {
     color: #36b649;
     font-size: 50px;
     font-stretch: expanded;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo {
+        left: 0;
+        transform: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .brand-logo table tr {
+        font-size: 36px;
+    }
 }
