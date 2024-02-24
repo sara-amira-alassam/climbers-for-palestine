@@ -7,13 +7,34 @@ black: #1d1d1e
 */
 
 body {
-    background-color: #ececf2;
+    display: block;
+    background-attachment: scroll;
+    height: var(--background-height);
+    left: 0;
+    position: fixed;
+    top: 0;
+    transform: scale(1);
+    width: 100vw;
+    z-index: 0;
+    background-image: linear-gradient(45deg, rgba(28,66,5,0.631) 0%, rgba(191,117,135,0.639) 100%), url('../images/bg.jpeg');
+    background-position: 0% 0%, center;
+    background-repeat: repeat, no-repeat;
+    background-size: cover, cover;
+    background-color: #071901;
     color: #056839;
     font-size: 22px;
 }
 
-nav {
+#main_content {
+    margin-top: 10px;
     background-color: #ececf2;
+    transition: opacity 1.25s ease 0s, transform 1.25s ease 0s;
+    border-radius: 5px;
+    background-color: rgba(239, 237, 240, 0.8);
+}
+
+nav {
+    background-color: rgba(239, 237, 240, 0);
     color: #056839;
     height: 100px;
     border-bottom: #cd4d46 2px solid;
@@ -77,3 +98,4 @@ nav ul a {
     font-weight: lighter;
     border-radius: 10px;
 }
+
