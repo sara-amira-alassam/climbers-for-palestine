@@ -20,8 +20,8 @@ body {
     background-size: cover, cover;
     background-color: #071901;
     color: #056839;
-    font-size: 16pt;
-    font-weight: 200;
+    font-size: 24px;
+    font-weight: 400;
     font-optical-sizing: auto;
     font-stretch: 100%;
     line-height: 30pt;
@@ -32,7 +32,7 @@ body {
     background-color: #ececf2;
     transition: opacity 1.25s ease 0s, transform 1.25s ease 0s;
     border-radius: 5px;
-    background-color: rgba(239, 237, 240, 0.8);
+    background-color: rgba(239, 237, 240, 0.9);
 }
 
 #text-content {
@@ -80,9 +80,9 @@ nav ul a {
 
 .brand-logo table tr {
     border: none;
-    font-weight: lighter;
+    font-weight: 300;
     color: #36b649;
-    font-size: 40pt;
+    font-size: 50px;
     font-stretch: expanded;
 }
 
@@ -95,15 +95,15 @@ nav ul a {
 
 @media only screen and (max-width: 600px) {
     .brand-logo table tr {
-        font-size: 32pt;
+        font-size: 36px;
     }
 }
 
 .btn, .btn:hover, .btn:active {
     color: #ececf2;
     background-color: #cd4d46;
-    font-size: 20px;
-    font-weight: lighter;
+    font-size: 24px;
+    font-weight: 300;
     border-radius: 10px;
 }
 
