@@ -20,7 +20,7 @@ body {
     background-size: cover, cover;
     background-color: #071901;
     color: #056839;
-    font-size: 2em;
+    font-size: 28pt;
     font-weight: 400;
     font-optical-sizing: auto;
     font-stretch: 100%;
@@ -96,9 +96,11 @@ nav ul a {
     .brand-logo table tr {
         font-size: 36px;
     }
+}
 
-    div#text-content p {
-        font-size: 2.5em; !important;
+@media only screen and (min-width: 900px) {
+    body {
+        font-size: 24pt;
     }
 }
 
