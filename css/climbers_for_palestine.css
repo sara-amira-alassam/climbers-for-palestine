@@ -107,3 +107,19 @@ nav ul a {
     border-radius: 10px;
 }
 
+div.quote {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+div.person {
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+ul li.bullet-list {
+    list-style-type: disc; !important;
+    margin: 10px; !important;
+}
