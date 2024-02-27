@@ -8,17 +8,7 @@ black: #1d1d1e
 
 body {
     display: block;
-    background-attachment: fixed;
-    left: 0;
-    top: 0;
-    transform: scale(1);
-    width: 100vw;
-    z-index: 0;
-    background-image: linear-gradient(45deg, rgba(28,66,5,0.631) 0%, rgba(191,117,135,0.639) 100%), url('../images/bg.jpeg');
-    background-position: 0% 0%, center;
-    background-repeat: repeat, no-repeat;
-    background-size: cover, cover;
-    background-color: #071901;
+    background-color: #bbb9ab;
     color: #056839;
     font-size: 28pt;
     font-weight: 400;
